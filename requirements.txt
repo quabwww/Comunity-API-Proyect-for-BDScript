@@ -1,0 +1,5 @@
+asyncio
+fastapi
+pydantic
+uvicorn
+requests
