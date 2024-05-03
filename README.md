@@ -35,17 +35,21 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/95c04247-145a-4351-a413-d5e13f5f3c5e)
 
+
 - Dale en el boton de **"Next"**, Ya que de por si vamos hace un Diploy de nuestro repositorio
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/bb0bd321-2461-475a-8375-b852d836a12f)
+
 
 - Selecciona o busca el repositorio en la nueva ventana que se muestra en este caso el repositorio se llama **"Comunity-API-Proyect-for-BDScript"**, una ves localizado nuestro repositorio le das en el boton de **"Connect"**
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/aea811d7-6fe0-4cb2-bd36-64f8c77f3a1c)
 
+
 - Ahora te saldra esta ventana y debes bajar en el apartado siguiente.
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/66759c0a-29a9-4003-8301-7fec34120195)
+
 
 - En este seccion debes poner **"uvicorn main:app --host 0.0.0.0 --port 1000"** para que tu despliegue a produccion del repositorio funcione bien
 
