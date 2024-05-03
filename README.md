@@ -69,8 +69,11 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/739bfee8-a0f0-46c4-b545-4d0e8b94c2b6)
 
 
-- Una ves ya presionado el boton te enviara aun panel de tu Repositorio en Produccion, Espera a 3 - 6 Minutos para que tu API este activa y ya con esto puedes acceder atu URL que se muestra en pantalla:
+- Una ves ya presionado el boton te enviara aun panel de tu Repositorio en Produccion, Espera a 3 - 6 Minutos para que tu API este activa y ya con esto puedes acceder a tu URL que se muestra en pantalla:
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/59d33fd7-aa20-4103-922e-6463c81ac02a)
+
+  ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/91dd6fdd-db72-4f10-979f-5d62b84441c3)
+
 
   
