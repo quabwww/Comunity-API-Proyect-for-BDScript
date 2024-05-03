@@ -35,3 +35,6 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/95c04247-145a-4351-a413-d5e13f5f3c5e)
 
+- Dale en el boton de **"Next"**, Ya que de por si vamos hace un Diploy de nuestro repositorio
+
+  ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/bb0bd321-2461-475a-8375-b852d836a12f)
