@@ -51,6 +51,7 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/3b2333e3-fd75-4c62-94ad-88806ffe796a)
 
-  ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/c0336342-e46b-4ee0-a818-3960836fe508)
+  ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/ff80e8e3-5f57-4aa6-9f79-e72682ab29c6)
+
 
 
