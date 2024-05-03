@@ -38,3 +38,8 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
 - Dale en el boton de **"Next"**, Ya que de por si vamos hace un Diploy de nuestro repositorio
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/bb0bd321-2461-475a-8375-b852d836a12f)
+
+- Selecciona o busca el repositorio en la nueva ventana que se muestra en este caso el repositorio se llama **"Comunity-API-Proyect-for-BDScript"**, una ves localizado nuestro repositorio le das en el boton de **"Connect"**
+
+  ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/aea811d7-6fe0-4cb2-bd36-64f8c77f3a1c)
+
