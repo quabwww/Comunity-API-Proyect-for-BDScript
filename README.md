@@ -79,7 +79,7 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
 
 
   ### Final
-Para actualizar tu repositorio con las nuevas cosas que añadire o actualizare puedes irte en el panel general de tu repositorio creado y darle en el boton de "Sync For" y dale en el ultimo commit.
+Para actualizar tu repositorio con las nuevas cosas que añadire o actualizare puedes irte en el panel general de tu repositorio creado y darle en el boton de **"Sync Fork"** y dale en el ultimo commit.
 
 ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/62359a88-bfa1-45f9-b973-3a295b9acd52)
 
