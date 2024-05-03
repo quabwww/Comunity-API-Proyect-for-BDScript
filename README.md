@@ -46,7 +46,7 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/aea811d7-6fe0-4cb2-bd36-64f8c77f3a1c)
 
 
-- Ahora te saldra esta ventana y debes bajar en el apartado siguiente.
+- Ahora te saldra esta ventana, puedes poner el nombre que deceeas a subdominio de render, despues debes bajar en el apartado siguiente.
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/66759c0a-29a9-4003-8301-7fec34120195)
 
