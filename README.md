@@ -58,6 +58,12 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/ff80e8e3-5f57-4aa6-9f79-e72682ab29c6)
 
+- **IMPORTANTE**
+- Mas abajo te encontras con este apartado solo dale Click a la opcion de **"FREE PLAN"**
+
+  ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/17d24034-e66f-4574-9550-4cf082600da8)
+  
+
 - Despues ya hecho lo que explique bajas hasta el final de la pagina, te encontras con este boton, solo dale click ya estaria en procedimiento tu repositorio para estar en linea o producion.
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/739bfee8-a0f0-46c4-b545-4d0e8b94c2b6)
