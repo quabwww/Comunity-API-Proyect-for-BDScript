@@ -29,3 +29,6 @@ Listo tienes el repositorio en tu propiedad, ahora el siguiente paso para desple
 En este caso usaremos [Render](https://render.com), Primero debes inciar sesion  o registrarte en la pagina de preferencia haslo con tu cuenta de git hub, ya con todo esto listo por favor dale click en "Dashboard"
 
 ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/0da1c037-0cb8-4a32-8d92-6290eb9189e5)
+
+
+- Una ves dado clikc te mostrarara una nueva ventana pero los que no interesa el boton de **"+ New"** Dale click hay y mostrara una lista de servicios, dale click en **"Web Servicie"**
