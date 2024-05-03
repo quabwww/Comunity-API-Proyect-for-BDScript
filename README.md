@@ -25,3 +25,7 @@ Listo tienes el repositorio en tu propiedad, ahora el siguiente paso para desple
 ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/90cb5488-4a22-4804-a414-6cb6a67a3783)
 
 
+### 4.- Conecta tu aplicacion con Render
+En este caso usaremos [Render](https://render.com), Primero debes inciar sesion de preferencia haslo con tu cuenta de git hub, ya con todo esto listo por favor dale click en "Dasboard"
+
+![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/0da1c037-0cb8-4a32-8d92-6290eb9189e5)
