@@ -59,7 +59,7 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/ff80e8e3-5f57-4aa6-9f79-e72682ab29c6)
 
 - **IMPORTANTE**
-- Mas abajo te encontras con este apartado solo dale Click a la opcion de **"FREE PLAN"**
+- Mas abajo te encontras con este apartado solo dale Click a la opcion de **"FREE"**
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/17d24034-e66f-4574-9550-4cf082600da8)
   
