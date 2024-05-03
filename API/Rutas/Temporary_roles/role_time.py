@@ -17,7 +17,9 @@ async def time_role(body: AddRole, token: str = Header(...), rol: str = Header(.
     headers_add_role = {'Authorization': f'Bot {token}'}
     headers_remove_role = {'Authorization': f'Bot {token}'}
 
-    async def add_and_remove_role():
+    remove_role_url = f'https://discord.com/api/v9/guilds/{body.server}/members/{str(body.user)}/roles/{rol}'
+
+    async def add_and_remove_role(remove_role_url):
         # Agregar el rol
         response_add_role = requests.put(add_role_url, headers=headers_add_role)
         if response_add_role.status_code != 204:
@@ -31,6 +33,7 @@ async def time_role(body: AddRole, token: str = Header(...), rol: str = Header(.
         if response_remove_role.status_code != 204:
             raise HTTPException(status_code=response_remove_role.status_code, detail="Error removing role.")
 
-    asyncio.create_task(add_and_remove_role())  # Ejecutar la función en segundo plano
+    asyncio.create_task(add_and_remove_role(remove_role_url))  # Ejecutar la función en segundo plano
 
     return JSONResponse(content={"status": 200, "data": {"message": f"The role was successfully added to the user {body.user} and will be removed after {body.tiempo} seconds."}})
+and will be removed after {body.tiempo} seconds."}})
