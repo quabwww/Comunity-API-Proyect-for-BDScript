@@ -73,6 +73,8 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
 
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/59d33fd7-aa20-4103-922e-6463c81ac02a)
 
+  Accediendo al subdominio que se creo la API con repositorio.
+  
   ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/91dd6fdd-db72-4f10-979f-5d62b84441c3)
 
 
