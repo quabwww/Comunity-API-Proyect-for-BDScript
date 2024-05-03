@@ -32,6 +32,5 @@ En este caso usaremos [Render](https://render.com), Primero debes inciar sesion 
 
 
 - Una ves dado clikc te mostrarara una nueva ventana pero los que no interesa el boton de **"+ New"** Dale click hay y mostrara una lista de servicios, dale click en **"Web Servicie"**
--
-- ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/95c04247-145a-4351-a413-d5e13f5f3c5e)
+  ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/95c04247-145a-4351-a413-d5e13f5f3c5e)
 
