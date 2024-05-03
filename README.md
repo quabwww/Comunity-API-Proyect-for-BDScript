@@ -15,7 +15,7 @@ Una ves dado "Fork" te aparecera esta ventana donde le dara nombre al repositori
 
 ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/c768f3e2-ffe3-437a-8bf6-5ba727971bad)
 
-Despues bajas y le das en
+Despues bajas un poco y dale clikc en el boton para poder crear completamente el repositorio.
 
 ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/47508e2b-362e-4fce-ae87-a1a5adeffd41)
 
