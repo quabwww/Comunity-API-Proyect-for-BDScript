@@ -16,5 +16,6 @@ Una ves dado "Fork" te aparecera esta ventana donde le dara nombre al repositori
 
 Despues bajas y le das en
 
+![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/f321359b-ea7b-48d8-b010-d19e636f07cb)
 
 
