@@ -3,3 +3,7 @@
 Este proyecto se hizo para facilitar el uso de la API de discord mediante Aplicaciones creadas con FastAPI en Python
 
 **Para que tu API funcione correctamente con HOST gratuito puedes elejir entre varias opciones, a continuacion te enseñare a como tener este proyecto en tu propiedad y hostear tu aplicacion de manera GRATIS.**
+
+### Obten el proyecto en tu propiedad
+Dale clik donde Dice "Fork" en la en la ventana principal de este Repositorio
+![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/4f2593ee-3033-465e-afb9-42723fea089b)
