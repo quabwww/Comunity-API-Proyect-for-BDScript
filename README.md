@@ -7,7 +7,8 @@ Este proyecto se hizo para facilitar el uso de la API de discord mediante Aplica
 ### 1.- Obten el proyecto en tu propiedad
 Dale clik donde Dice "Create Fork" en la en la ventana principal de este Repositorio
 
-![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/4f2593ee-3033-465e-afb9-42723fea089b)
+![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/f5ee7aec-db4b-410f-895b-9d4d6e3907ba)
+
 
 ## 2.- Crea el Repositorio con el proyecto
 Una ves dado "Fork" te aparecera esta ventana donde le dara nombre al repositorio (creado a base de este mismo)
