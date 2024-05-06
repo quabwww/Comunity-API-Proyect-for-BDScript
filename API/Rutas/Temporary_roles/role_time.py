@@ -33,7 +33,7 @@ async def time_role(body: AddRole, token: str = Header(...), rol: str = Header(.
         if response_remove_role.status_code != 204:
             raise HTTPException(status_code=response_remove_role.status_code, detail="Error removing role.")
 
-    asyncio.create_task(add_and_remove_role(remove_role_url))  # Ejecutar la función en segundo plano
+    asyncio.create_task(add_and_remove_role(remove_role_url))
 
     return JSONResponse(content={"status": 200, "data": {"message": f"The role was successfully added to the user {body.user} and will be removed after {body.tiempo} seconds."}})
 
