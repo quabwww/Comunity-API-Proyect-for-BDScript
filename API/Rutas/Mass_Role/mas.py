@@ -19,7 +19,6 @@ async def manage_role_for_all_members(
         "Content-Type": "application/json"
     }
 
-   
     response = requests.get(f"https://discord.com/api/v9/guilds/{guild_id}/members", headers=headers, params={"limit": 1000})
     if response.status_code != 200:
         raise HTTPException(status_code=response.status_code, detail="Failed to fetch members")
@@ -27,6 +26,10 @@ async def manage_role_for_all_members(
     members = response.json()
 
     
+    failed_members = []
+
+    
+    successful_members = 0
     for member in members:
         user_id = member["user"]["id"]
         if action == "add":
@@ -35,6 +38,19 @@ async def manage_role_for_all_members(
             response = requests.delete(f"https://discord.com/api/v9/guilds/{guild_id}/members/{user_id}/roles/{role_id}", headers=headers)
         
         if response.status_code != 204:
-            raise HTTPException(status_code=response.status_code, detail=f"Failed to {action} role for member {user_id}")
+            failed_members.append(user_id)
+        else:
+            successful_members += 1
 
-    return {"message": f"Role {action}ed for all members"}
+    total_members = len(members)
+    failed_members_count = len(failed_members)
+    successful_members_count = total_members - failed_members_count
+
+    return {
+        "message": f"Role {action}ed for members. {successful_members_count} members were {action}ed successfully.",
+        "total_members": total_members,
+        "successful_members_count": successful_members_count,
+        "failed_members_count": failed_members_count,
+        "failed_members_ids": failed_members
+    }
+
