@@ -4,7 +4,7 @@ import requests
 
 router = APIRouter()
 
-@router.post("/manage-role-for-all-members")
+@router.post("/api/mass_roles/")
 async def manage_role_for_all_members(
     action: str = Header(..., description="Action to perform (add or remove)"),
     role_id: int = Header(..., description="ID of the role to add or remove"),
