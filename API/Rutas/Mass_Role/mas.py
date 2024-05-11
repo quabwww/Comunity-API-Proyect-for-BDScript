@@ -19,14 +19,14 @@ async def manage_role_for_all_members(
         "Content-Type": "application/json"
     }
 
-    # Obtener todos los miembros del servidor
+   
     response = requests.get(f"https://discord.com/api/v9/guilds/{guild_id}/members", headers=headers, params={"limit": 1000})
     if response.status_code != 200:
         raise HTTPException(status_code=response.status_code, detail="Failed to fetch members")
 
     members = response.json()
 
-    # Realizar la acción para cada miembro
+    
     for member in members:
         user_id = member["user"]["id"]
         if action == "add":
