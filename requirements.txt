@@ -3,3 +3,4 @@ fastapi
 pydantic
 uvicorn
 requests
+easy-pil
