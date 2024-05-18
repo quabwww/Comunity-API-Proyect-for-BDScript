@@ -30,7 +30,10 @@ def get_custom_image(avatar: str, background: str, ctx1: str="WELCOME", ctx2: st
         # Positioning and drawing on the background
         x_offset = 24
         background_editor.paste(avatar_image.image, (250 - x_offset, 90))
-        background_editor.ellipse((250 - x_offset, 90, 400 - x_offset, 240), outline="white", stroke_width=5)
+
+        # Calculate ellipse bounding box
+        ellipse_bbox = (250 - x_offset, 90, 250 - x_offset + 150, 90 + 150)
+        background_editor.ellipse(ellipse_bbox, outline="white", width=5)
 
         background_editor.text((320 - x_offset, 260), ctx1, color="white", font=poppins, align="center")
         background_editor.text((320 - x_offset, 315), ctx2, color="white", font=poppins_small, align="center")
@@ -46,7 +49,3 @@ def get_custom_image(avatar: str, background: str, ctx1: str="WELCOME", ctx2: st
     except Exception as e:
         logging.error(f"Error generating image: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-
-
-
-
