@@ -20,7 +20,7 @@ def get_custom_image(avatar: str, background: str, ctx1: str="WELCOME", ctx2: st
         if background_response.status_code != 200:
             raise HTTPException(status_code=400, detail=f"Failed to download background image. Status code: {background_response.status_code}, Reason: {background_response.reason}")
         
-        background = Editor(BytesIO(background_response.content)).resize((900, 270))
+        background = Editor(BytesIO(background_response.content)).resize((800, 450))
         
         
 
