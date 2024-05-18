@@ -32,7 +32,7 @@ def get_custom_image(avatar: str, background: str, ctx1: str="WELCOME", ctx2: st
         background_editor.paste(avatar_image.image, (250 - x_offset, 90))
 
         # Draw ellipse around avatar image
-        ellipse_bbox = (250 - x_offset, 90, 250 - x_offset + 150, 90 + 150)
+        ellipse_bbox = (250 - x_offset, 90, 400 - x_offset, 240)
         background_editor.ellipse(ellipse_bbox, outline="white", width=5)
 
         background_editor.text((320 - x_offset, 260), ctx1, color="white", font=poppins, align="center")
