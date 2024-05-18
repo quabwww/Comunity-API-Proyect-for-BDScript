@@ -4,7 +4,7 @@ from io import BytesIO
 import requests
 import logging
 
-app = APIRouter()
+router = APIRouter()
 
 @router.get("/api/welcome_card/")
 def get_custom_image(avatar: str, background: str, ctx1: str="WELCOME", ctx2: str="xquab#0", ctx3: str="You are the 457th Member"):
