@@ -6,6 +6,10 @@ import logging
 
 app = FastAPI()
 
+@app.get("/favicon.ico")
+async def favicon():
+    return Response(status_code=204)
+
 @app.get("/image")
 def get_custom_image(avatar: str, background: str, ctx1: str="WELCOME", ctx2: str="xquab#0", ctx3: str="You are the 457th Member"):
     try:
@@ -51,3 +55,4 @@ def get_custom_image(avatar: str, background: str, ctx1: str="WELCOME", ctx2: st
     except Exception as e:
         logging.error(f"Error generating image: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
