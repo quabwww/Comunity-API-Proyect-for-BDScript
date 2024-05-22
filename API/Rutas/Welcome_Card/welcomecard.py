@@ -1,10 +1,10 @@
-from fastapi import FastAPI, Response, HTTPException
+from fastapi import APIRouter, Response, HTTPException
 from easy_pil import Editor, Font
 from io import BytesIO
 import requests
 import logging
 
-app = FastAPI()
+app = APIRouter()
 
 @app.get("/favicon.ico")
 async def favicon():
