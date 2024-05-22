@@ -26,7 +26,7 @@ def get_custom_image(avatar: str, background: str, ctx1: str="WELCOME", ctx2: st
         poppins_small = Font.poppins(size=25, variant="regular")
 
         # Define the amount of horizontal shift (2 cm in pixels)
-        horizontal_shift = 56
+        horizontal_shift = 60
 
         # Create a new Editor object for the background image
         editor = Editor(background_image)
@@ -51,7 +51,3 @@ def get_custom_image(avatar: str, background: str, ctx1: str="WELCOME", ctx2: st
     except Exception as e:
         logging.error(f"Error generating image: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
