@@ -21,7 +21,7 @@ def level(avatar: str, level:str):
    
     poppins = Font.poppins(size=30)
     desplazamiento_x = 17  
-    editor.rectangle((110, 16), width=230, height=100, fill="#201c1c", radius=15)
+    editor.rectangle((110, 16), width=230, height=100, fill="#25262a", radius=15)
     editor.ellipse((30 + desplazamiento_x, 11), width=110, height=110, outline="white", stroke_width=8)
     editor.text((180, 57), f"level {level}", font=poppins, color="white")
     editor.paste(profile.image, (35 + desplazamiento_x, 16))
