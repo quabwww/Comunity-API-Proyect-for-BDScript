@@ -7,8 +7,8 @@ router = APIRouter()
 
 @router.get("/api/level_up/")
 def level(avatar: str, level:int):
-    if not level.isDigit():
-       level = 1
+    if not str(level).isdigit(): 
+        level = 1
        
     canvas = Canvas((700, 130), color=(0, 0, 0, 0))
     editor = Editor(canvas.image)
