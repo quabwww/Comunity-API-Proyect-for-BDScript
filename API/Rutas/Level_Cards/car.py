@@ -1,9 +1,9 @@
 from easy_pil import Editor, Canvas, Font
 from io import BytesIO
-from fastapi import APIrouter, Response, HTTPException
+from fastapi import APIRouter, Response, HTTPException
 import requests
 
-router = APIrouter()
+router = APIRouter()
 
 @router.get("/api/level_up/")
 def level(avatar: str, level:str):
