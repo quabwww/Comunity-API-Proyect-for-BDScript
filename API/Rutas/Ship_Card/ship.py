@@ -52,9 +52,6 @@ def image(avatar1: str, avatar2: str, love:int):
     return Response(content=img_buffer.getvalue(), media_type="image/png")
 
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app=app, host="0.0.0.0", port=9000)
 
 
 
