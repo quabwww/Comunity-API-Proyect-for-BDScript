@@ -1,13 +1,13 @@
 from easy_pil import Editor, Font
 from io import BytesIO
-from fastapi import FastAPI, Response, HTTPException
+from fastapi import APIRouter, Response, HTTPException
 import requests
 
 
-app = FastAPI()
+router = APIRouter()
 
-@app.get("/card/")
-def image(avatar1: str, avatar2: str):
+@router.get("/api/ship-card/")
+def image(avatar1: str, avatar2: str, love:int):
 
     poppins = Font.poppins(size=80)
     gen = Editor("fondo.png").resize((900, 300))
@@ -37,7 +37,7 @@ def image(avatar1: str, avatar2: str):
 
 
     gen.paste(corazon, (330, 36))
-    gen.text((372, 110), "30%", font=poppins, color="white")
+    gen.text((372, 110), f"{love}%", font=poppins, color="white")
     gen.paste(profile, (100, 50))
     gen.ellipse((100, 50), 200, 200, outline="red", stroke_width=4)
     gen.paste(profile_2, (600, 50))
