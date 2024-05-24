@@ -10,7 +10,7 @@ router = APIRouter()
 def image(avatar1: str, avatar2: str, love:int):
 
     poppins = Font.poppins(size=80)
-    gen = Editor("API\\Rutas\\Ship_Card\\fondo.png").resize((900, 300))
+    gen = Editor("API/Rutas/Ship_Card/fondo.png").resize((900, 300))
 
 
     
@@ -31,7 +31,7 @@ def image(avatar1: str, avatar2: str, love:int):
 
 
 
-    corazon = Editor("API\\Rutas\\Ship_Card\\corz.png").resize((240,240))
+    corazon = Editor("API/Rutas/Ship_Card/corz.png").resize((240,240))
 
 
 
