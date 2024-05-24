@@ -37,7 +37,7 @@ def image(avatar1: str, avatar2: str, love:int):
 
 
     gen.paste(corazon, (330, 36))
-    gen.text((377, 110), f"{love} %", font=poppins, color="white")
+    gen.text((380, 110), f"{love}%", font=poppins, color="white")
     gen.paste(profile, (100, 50))
     gen.ellipse((100, 50), 200, 200, outline="red", stroke_width=4)
     gen.paste(profile_2, (600, 50))
