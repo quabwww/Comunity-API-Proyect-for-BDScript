@@ -9,11 +9,11 @@ router = APIRouter()
 @router.get("/api/ship-card/")
 def image(avatar1: str, avatar2: str, love: int, background_url: str = None):
 
-    # Si no se proporciona una URL de fondo, usar la imagen predeterminada
+   
     if background_url is None:
         background_path = "API/Rutas/Ship_Card/fondo.png"
     else:
-        # Descargar el fondo desde la URL
+        
         background_response = requests.get(background_url)
         if background_response.status_code != 200:
             raise HTTPException(status_code=400, detail="Failed to download background image.")
