@@ -22,7 +22,7 @@ def param(avatar: str, nombre: str=None, apellido: str=None, sexo: str=None, nac
 
 
     poppins = Font.poppins(size=15, variant="bold")
-    fondo.rectangle((2, 50), width=400, height=200, color=(153,153,153,255), radius=1)
+    fondo.rectangle((2, 50), width=450, height=200, color=(153,153,153,255), radius=1)
     fondo.paste(perfil, (30,70))
 
 
