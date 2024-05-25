@@ -47,7 +47,7 @@ def param(avatar: str, nombre: str=None, apellido: str=None, sexo: str=None, nac
 
 
     NOM2 = Font.poppins(size=8, variant="bold")
-    fondo.text((25, 180), text="FOTOGRAFIA DE ARCHIVO",font=NOM2 ,color="black")
+    fondo.text((28, 180), text="FOTOGRAFIA DE ARCHIVO",font=NOM2 ,color="black")
 
     img_buffer = BytesIO()
     fondo.image.save(img_buffer, format="PNG")
