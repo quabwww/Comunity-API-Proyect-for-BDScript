@@ -22,7 +22,7 @@ def param(avatar: str, nombre: str=None, apellido: str=None, sexo: str=None, nac
 
 
     poppins = Font.poppins(size=15, variant="bold")
-    fondo.rectangle((2, 50), width=450, height=200, color=(153,153,153,255), radius=1)
+    fondo.rectangle((-2, 50), width=450, height=200, color=(153,153,153,255), radius=1)
     fondo.paste(perfil, (30,70))
 
 
@@ -39,7 +39,7 @@ def param(avatar: str, nombre: str=None, apellido: str=None, sexo: str=None, nac
     fondo.text((157, 116), text=f"SEXO: {sexo}",font=NOM ,color="black")
 
 
-    fondo.text((157, 135), text=f"NACIONALIDAD: {nacionalidad} ",font=NOM ,color="black")
+    fondo.text((157, 135), text=f"NACIONALIDAD:{nacionalidad} ",font=NOM ,color="black")
 
     fondo.text((157, 155), text=f"EDAD: {edad}",font=NOM ,color="black")
 
@@ -47,7 +47,7 @@ def param(avatar: str, nombre: str=None, apellido: str=None, sexo: str=None, nac
 
 
     NOM2 = Font.poppins(size=8, variant="bold")
-    fondo.text((22, 180), text="FOTOGRAFIA DE ARCHIVO",font=NOM2 ,color="black")
+    fondo.text((25, 180), text="FOTOGRAFIA DE ARCHIVO",font=NOM2 ,color="black")
 
     img_buffer = BytesIO()
     fondo.image.save(img_buffer, format="PNG")
