@@ -39,7 +39,7 @@ def param(avatar: str, nombre: str=None, apellido: str=None, sexo: str=None, nac
     fondo.text((157, 116), text=f"SEXO: {sexo}",font=NOM ,color="black")
 
 
-    fondo.text((157, 135), text=f"NACIONALIDAD:{nacionalidad} ",font=NOM ,color="black")
+    fondo.text((157, 135), text=f"NACIONALIDAD: {nacionalidad} ",font=NOM ,color="black")
 
     fondo.text((157, 155), text=f"EDAD: {edad}",font=NOM ,color="black")
 
