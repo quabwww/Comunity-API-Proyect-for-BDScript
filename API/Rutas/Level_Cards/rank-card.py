@@ -1,7 +1,7 @@
 from easy_pil import Editor, Canvas, Font
 from io import BytesIO
 from fastapi import APIRouter, Response, HTTPException
-from Funciones_API.convert_k_m import 
+from Funciones_API.convert_k_m import abreviar_numero
 
 
 import requests
@@ -44,7 +44,7 @@ def rank(avatar: str, username: str, level: str, req: str, xp: str, rank: str, c
     background.text((150, 37 + 4), username, font=poppins, color="white")
 
     poppins = Font.poppins(size=25)
-    background.text((145, 107), f"Level: {int(level)}   XP:  {int(xp)} /  {int(req)}   Rank: {int(rank)}", font=poppins, color="white")
+    background.text((145, 107), f"Level: {int(level)}   XP:  {abreviar_numero(int(xp))} /  {abreviar_numero(int(req))}   Rank: {int(rank)}", font=poppins, color="white")
 
     img_buffer = BytesIO()
     background.image.save(img_buffer, format="PNG")
