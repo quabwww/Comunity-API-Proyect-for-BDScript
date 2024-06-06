@@ -1,6 +1,9 @@
 from easy_pil import Editor, Canvas, Font
 from io import BytesIO
 from fastapi import APIRouter, Response, HTTPException
+from Funciones_API.convert_k_m import 
+
+
 import requests
 
 router = APIRouter()
