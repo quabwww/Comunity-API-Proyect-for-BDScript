@@ -17,6 +17,7 @@ $image[$var[url]/api/rankcard/?avatar=$var[av]&username=$var[user]&level=$var[le
 ```
 
 Resultado:
+
 ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/4d3d720c-cbdc-473e-afad-5504614c602b)
 
 
