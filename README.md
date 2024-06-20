@@ -20,4 +20,4 @@ Resultado:
 
 ![image](https://github.com/quabwww/Comunity-API-Proyect-for-BDScript/assets/148601206/4d3d720c-cbdc-473e-afad-5504614c602b)
 
-Como copias este prpyecto por favor lee la carpeta API
+Como copias este prpyecto por favor lee la carpeta "HOST-API"
