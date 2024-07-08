@@ -1,9 +1,11 @@
 from fastapi import APIRouter, HTTPException
 from typing import List, Tuple, Dict
 import random
+from API.Funciones_API.black_jack_funcs import crear_baraja, barajar_baraja, repartir_carta, calcular_valor_mano, mostrar_mano
 import uuid
+from API.Rutas.Blackjack.starts_blackjack import VALORES_CARTAS, partidas
 
-app = APIrouter()
+app = APIRouter()
 
 
 @app.get("/api/blackjack/{partida_id}/")
