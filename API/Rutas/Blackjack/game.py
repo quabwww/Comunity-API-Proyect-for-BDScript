@@ -1,9 +1,9 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import APIRouter, HTTPException
 from typing import List, Tuple, Dict
 import random
 import uuid
 
-app = FastAPI()
+app = APIRouter()
 
 # Definimos los valores de las cartas
 VALORES_CARTAS = {
