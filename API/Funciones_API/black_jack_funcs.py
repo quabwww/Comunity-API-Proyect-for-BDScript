@@ -1,3 +1,10 @@
+from fastapi import APIRouter, HTTPException
+from typing import List, Tuple, Dict
+import random
+import uuid
+from API.Rutas.Blackjack.starts_blackjack import VALORES_CARTAS, partidas
+
+
 def crear_baraja() -> List[Tuple[str, str]]:
     """Crea una baraja de cartas."""
     palos = ['Corazones', 'Diamantes', 'Tréboles', 'Picas']
