@@ -2,6 +2,9 @@ from fastapi import APIRouter, HTTPException
 from typing import List, Tuple, Dict
 import random
 import uuid
+from API.Rutas.Blackjack.starts_blackjack import VALORES_CARTAS, partidas
+from API.Funciones_API.black_jack_funcs import crear_baraja, barajar_baraja, repartir_carta, calcular_valor_mano, mostrar_mano
+
 
 app = APIRouter()
 
@@ -21,3 +24,4 @@ def estado_partida(partida_id: str):
         "mano_crupier": mostrar_mano(partida["mano_crupier"]),
         "valor_crupier": calcular_valor_mano(partida["mano_crupier"])
     }
+
