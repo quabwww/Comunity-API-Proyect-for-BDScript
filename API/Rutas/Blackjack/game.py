@@ -94,7 +94,7 @@ def estado_partida(partida_id: str):
         "cartas_restantes": len(partida["baraja"])
     }
 
-@app.post("/blackjack/{partida_id}/accion")
+@app.post("/api/blackjack/{partida_id}/")
 def accion_partida(partida_id: str, accion: str):
     """Realiza una acción en la partida (pedir, plantarse, doblar, split)."""
     partida = partidas.get(partida_id)
