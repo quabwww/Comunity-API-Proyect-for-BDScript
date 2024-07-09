@@ -47,7 +47,7 @@ def mostrar_mano(mano: List[Tuple[str, str]]) -> str:
     """Muestra las cartas y el valor de una mano."""
     return ', '.join(f"{valor} de {palo}" for valor, palo in mano)
 
-@app.post("/blackjack/nueva")
+@app.get("/api/blackjack_new")
 def nueva_partida():
     """Inicia una nueva partida de Blackjack."""
     # Crear y barajar la baraja
@@ -76,7 +76,7 @@ def nueva_partida():
         "cartas_restantes": len(baraja)
     }
 
-@app.get("/blackjack/{partida_id}")
+@app.get("/api/blackjack/{partida_id}")
 def estado_partida(partida_id: str):
     """Obtiene el estado actual de una partida."""
     partida = partidas.get(partida_id)
