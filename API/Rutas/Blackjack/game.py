@@ -76,7 +76,7 @@ def nueva_partida():
         "cartas_restantes": len(baraja)
     }
 
-@app.get("/api/blackjack/{partida_id}")
+@app.get("/api/get_blackjack/{partida_id}")
 def estado_partida(partida_id: str):
     """Obtiene el estado actual de una partida."""
     partida = partidas.get(partida_id)
