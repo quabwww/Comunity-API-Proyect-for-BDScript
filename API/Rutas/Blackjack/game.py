@@ -67,14 +67,20 @@ def nueva_partida():
         "finalizada": False
     }
 
+    # Verificar si el jugador puede hacer un split
+    se_puede_split = mano_jugador[0][0] == mano_jugador[1][0]
+
     return {
         "partida_id": partida_id,
         "mano_jugador": mostrar_mano(mano_jugador),
         "valor_jugador": calcular_valor_mano(mano_jugador),
         "mano_crupier": f"{mano_crupier[0][0]} de {mano_crupier[0][1]} y una carta oculta",
         "valor_crupier": VALORES_CARTAS[mano_crupier[0][0]],
-        "cartas_restantes": len(baraja)
+        "cartas_restantes": len(baraja),
+        "se_puede_split": se_puede_split
     }
+
+
 
 @router.get("/api/get_blackjack/{partida_id}")
 def estado_partida(partida_id: str):
