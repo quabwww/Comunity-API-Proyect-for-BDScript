@@ -70,6 +70,9 @@ def nueva_partida():
     # Verificar si el jugador puede hacer un split
     se_puede_split = mano_jugador[0][0] == mano_jugador[1][0]
 
+    # Determinar si se puede hacer double down
+    se_puede_double_down = len(mano_jugador) == 2  # Solo se puede double down con las dos primeras cartas
+
     return {
         "partida_id": partida_id,
         "mano_jugador": mostrar_mano(mano_jugador),
@@ -77,8 +80,11 @@ def nueva_partida():
         "mano_crupier": f"{mano_crupier[0][0]} de {mano_crupier[0][1]} y una carta oculta",
         "valor_crupier": VALORES_CARTAS[mano_crupier[0][0]],
         "cartas_restantes": len(baraja),
-        "se_puede_split": se_puede_split
+        "se_puede_split": se_puede_split,
+        "se_puede_double_down": se_puede_double_down,
+        "acciones_disponibles": ["pedir", "doblar"]
     }
+
 
 
 
